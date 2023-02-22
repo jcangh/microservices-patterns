@@ -6,7 +6,7 @@ The purpose of this multimodal maven application is to put in practice the conce
 * Hexagonal architecture
 * Domain driven design
 * Inversion of dependencies
-* Microservices patters like
+* Microservice patterns like
   * SAGA
   * CQRS
   * OutBox
