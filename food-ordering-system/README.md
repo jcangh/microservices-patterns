@@ -1,6 +1,7 @@
 **Food Ordering System**
 
-The purpose of this multi module maven application is to put in practice the concepts of:
+Creates restaurants orders in asynchronous way, to see the multiple types of states from start to end.
+The purpose of this multimodal maven application is to put in practice the concepts of:
 
 * Hexagonal architecture
 * Domain driven design
