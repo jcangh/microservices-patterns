@@ -18,3 +18,6 @@ The purpose of this multimodal maven application is to put in practice the conce
 * Spring data
 * Kafka
 
+Notes:
+
+* development is centered in the concept of agnostic core modules, that does not depend on a specific framework
