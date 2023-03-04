@@ -76,3 +76,12 @@ fabric.properties
 .project
 .settings/
 target/
+
+#Infraestructure files
+*.index
+*.log
+*.lock
+*.timeindex
+**/docker-compose/volumes/kafka/*
+**/docker-compose/volumes/zookeeper/data/*
+**/docker-compose/volumes/zookeeper/transactions/*
