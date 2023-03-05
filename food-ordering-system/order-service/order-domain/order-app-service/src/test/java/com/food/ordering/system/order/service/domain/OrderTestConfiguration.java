@@ -3,9 +3,9 @@ package com.food.ordering.system.order.service.domain;
 import com.food.ordering.system.order.service.domain.ports.output.message.publisher.payment.OrderCancelledMessagePublisher;
 import com.food.ordering.system.order.service.domain.ports.output.message.publisher.payment.OrderCreatedMessagePublisher;
 import com.food.ordering.system.order.service.domain.ports.output.message.publisher.restaurant.OrderPaidMessagePublisher;
-import com.food.ordering.system.order.service.domain.ports.output.respository.CustomerRepository;
-import com.food.ordering.system.order.service.domain.ports.output.respository.OrderRepository;
-import com.food.ordering.system.order.service.domain.ports.output.respository.RestaurantRepository;
+import com.food.ordering.system.order.service.domain.ports.output.repository.CustomerRepository;
+import com.food.ordering.system.order.service.domain.ports.output.repository.OrderRepository;
+import com.food.ordering.system.order.service.domain.ports.output.repository.RestaurantRepository;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
