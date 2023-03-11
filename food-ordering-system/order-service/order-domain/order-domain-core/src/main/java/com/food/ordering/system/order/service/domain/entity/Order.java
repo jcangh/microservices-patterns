@@ -104,7 +104,7 @@ public class Order extends AggregateRoot<OrderId> {
     private void validateItemsPrice() {
         Money orderItemsTotal = items.stream().map(orderItem -> {
             validateItemPrice(orderItem);
-            return orderItem.getSubtotal();
+            return orderItem.getSubTotal();
         }).reduce(Money.ZERO, Money::add);
 
         if (!price.equals(orderItemsTotal)){
